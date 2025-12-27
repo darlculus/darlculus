@@ -2374,7 +2374,7 @@ body {
     margin-bottom: 80px;
 }
 
-/* Portfolio Item */
+/* Filter Animation */
 .portfolio-item {
     background: rgba(48, 54, 61, 0.2);
     border: 1px solid rgba(48, 54, 61, 0.3);
@@ -2383,6 +2383,24 @@ body {
     transition: all 0.5s ease;
     animation: fadeInUp 0.8s ease-out;
     backdrop-filter: blur(10px);
+    opacity: 1;
+    transform: scale(1);
+}
+
+.portfolio-item.hide {
+    opacity: 0;
+    transform: scale(0.8);
+    pointer-events: none;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.portfolio-item.show {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
 }
 
 .portfolio-item:hover {
@@ -2396,13 +2414,20 @@ body {
     position: relative;
     height: 250px;
     overflow: hidden;
+    background: var(--bg-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
     transition: transform 0.5s ease;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .portfolio-item:hover .project-img {
@@ -2740,19 +2765,6 @@ body {
         opacity: 1;
         transform: scale(1) translateY(0);
     }
-}
-
-/* Filter Animation */
-.portfolio-item.hide {
-    opacity: 0;
-    transform: scale(0.8);
-    pointer-events: none;
-}
-
-.portfolio-item.show {
-    opacity: 1;
-    transform: scale(1);
-    pointer-events: auto;
 }
 
 /* Responsive Design */

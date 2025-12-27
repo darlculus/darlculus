@@ -886,27 +886,26 @@ document.addEventListener('DOMContentLoaded', function() {
             live: "https://propamit.com"
         },
         4: {
-            title: "Task Management Dashboard",
-            description: "Collaborative project management tool with real-time updates, team collaboration features, advanced analytics, and customizable workflows. Perfect for remote teams and agile development.",
-            image: "assets/images/project4.jpg",
-            tech: ["Vue.js", "Socket.io", "PostgreSQL", "Chart.js", "Vuex"],
-            github: "https://github.com/darlculus/task-manager",
-            live: "https://taskmanager.darlculus.com"
+            title: "NNSS OJO Alumni App",
+            description: "Comprehensive alumni networking app for NNSS OJO (all sets) featuring member directory, event management, news updates, and social networking capabilities. Connects graduates across different years with modern mobile interface. The app includes features like alumni search, class year filtering, event notifications, news feed, messaging system, and career networking opportunities.",
+            image: "assets/images/portfolio 6.png",
+            tech: ["React Native", "Firebase", "Node.js", "Alumni Network", "Push Notifications", "Real-time Chat"],
+            github: "#",
+            live: "#"
         },
         5: {
-            title: "Design System",
-            description: "Comprehensive design system with reusable components, style guides, design tokens, and documentation. Created for consistency across multiple products and teams.",
-            image: "assets/images/project5.jpg",
-            tech: ["Figma", "Design Tokens", "Storybook", "Sketch"],
-            figma: "https://figma.com/design-system-darlculus"
+            title: "Franciscan Catholic School",
+            description: "Complete educational platform for Franciscan Catholic Nursery and Primary School featuring a modern website and comprehensive portal system. The project includes separate portals for students, teachers, and bursary management with secure authentication, role-based access control, grade management, attendance tracking, fee management, and communication tools. Built with modern web technologies to provide a seamless educational experience for all stakeholders.",
+            image: "assets/images/portfolio 8.png",
+            tech: ["Web Development", "Student Portal", "Teacher Portal", "Bursary System", "Authentication", "Role Management"],
+            live: "https://franciscancnps.org"
         },
         6: {
-            title: "AI Analytics Platform",
-            description: "Machine learning-powered analytics platform with predictive insights, automated reporting, and interactive data visualizations. Helps businesses make data-driven decisions.",
-            image: "assets/images/project6.jpg",
-            tech: ["Python", "TensorFlow", "D3.js", "FastAPI", "Pandas"],
-            github: "https://github.com/darlculus/ai-analytics",
-            live: "https://analytics.darlculus.com"
+            title: "Our Lady Mother and Queen Catholic Church",
+            description: "Modern church website for Our Lady Mother and Queen Catholic Church, Badore featuring comprehensive parish information, mass schedules, events calendar, online donations, and community engagement features. The website includes sections for parish history, clergy information, ministries, sacraments, and news updates. Built with responsive design for optimal viewing across all devices and includes accessibility features for all community members.",
+            image: "assets/images/portfolio 9.png",
+            tech: ["Web Development", "Responsive Design", "Church Management", "Event Calendar", "Online Donations", "Community Features"],
+            live: "https://olmqbadore.vercel.app"
         }
     };
     

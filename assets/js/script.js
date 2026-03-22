@@ -906,6 +906,13 @@ document.addEventListener('DOMContentLoaded', function() {
             image: "assets/images/portfolio 9.png",
             tech: ["Web Development", "Responsive Design", "Church Management", "Event Calendar", "Online Donations", "Community Features"],
             live: "https://olmqbadore.vercel.app"
+        },
+        7: {
+            title: "Poder Consulting Website",
+            description: "Professional website for Poder Consulting, a leading business consultancy firm with over 8 years of experience. The site showcases their comprehensive accounting, tax compliance, payroll, and ERP solutions for Nigerian enterprises. Features modern design, service portfolios, and client testimonials highlighting their work with 500+ businesses. Built with Next.js and React for optimal performance and user experience.",
+            image: "assets/images/portfolio 10.png",
+            tech: ["Next.js", "React", "Responsive Design", "Business Consulting", "Corporate Website", "Performance Optimization"],
+            live: "https://poderconsulting.vercel.app/"
         }
     };
     
